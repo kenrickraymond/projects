@@ -60,7 +60,7 @@ body { font-size: 1.9em; /* currently ems cause chrome bug misinterpreting rems 
 
 .logocontainer { background-color: #f4e5e3; margin-top: 6rem; padding: 4rem 0; }
 
-.twitter { background: url(../images/twitter2x.png) no-repeat; width: 22px; height: 22px; background-size: 22px 22px; margin-right: 20px; float: left; }
+.github { background: url(../images/github2x.png) no-repeat; width: 22px; height: 22px; background-size: 22px 22px; margin-right: 20px; float: left; }
 
 .linkedin { background: url(../images/linkedin2x.png) no-repeat; width: 22px; height: 22px; background-size: 22px 22px; margin-right: 10px; float: left; }
 
@@ -181,7 +181,7 @@ ul ul, ul ol, ol ol, ol ul { margin: 1.5rem 0 1.5rem 3rem; font-size: 90%; }
 
 li { margin-bottom: 1rem; }
 
-ul > li:before { content: "â€“"; position: absolute; margin-left: -1.2em; }
+ul > li:before { content: " - "; position: absolute; margin-left: -1.2em; }
 
 /* Code
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
@@ -221,5 +221,4 @@ hr { margin-top: 4rem; margin-bottom: 6rem; border-width: 0; border-top: 2px sol
 
 hr.f { margin-top: 3rem; margin-bottom: 3rem; border-width: 0; border-top: 1px solid #cabbbb; width: 100%; text-align: left; margin-left: 0; }
 
-/* Self Clearing Goodness */
 .container:after, .row:after, .u-cf { content: ""; display: table; clear: both; }
