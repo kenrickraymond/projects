@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* Fonts
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
-@font-face { font-family: 'FuturaPT'; src: url("../fonts/FuturaPT/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
-@font-face { font-family: 'FuturaPT'; src: url("../fonts/FuturaPT/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT/FuturaPT-Demi.woff") format("woff"); font-weight: 600; font-style: normal; }
-@font-face { font-family: 'FuturaPT'; src: url("../fonts/FuturaPT/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT/FuturaPT-Medium.woff") format("woff"); font-weight: 500; font-style: normal; }
-@font-face { font-family: 'FuturaPT'; src: url("../fonts/FuturaPT/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT/FuturaPT-Book.woff") format("woff"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'FuturaPT'; src: url("fonts/FuturaPT/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'FuturaPT'; src: url("/fonts/FuturaPT/FuturaPT-Demi.woff") format("woff"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'FuturaPT'; src: url("../fonts/FuturaPT/FuturaPT-Medium.woff") format("woff"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'FuturaPT'; src: url("../fonts/FuturaPT/FuturaPT-Book.woff") format("woff"); font-weight: 400; font-style: normal; }
 /* Grid
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 .container { position: relative; width: 100%; max-width: 1020px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; }
@@ -126,7 +126,7 @@ h5 { font-size: 1.8rem; line-height: 1.5; }
 h6 { font-size: 1.5rem; line-height: 1.6; }
 
 /* Larger than phablet */
-@media (min-width: 550px) { h1 { font-size: 3.6rem; line-height: 1.2; margin-top: 33rem; }
+@media (min-width: 550px) { h1 { font-size: 3.6rem; line-height: 1.2; margin-top: 28rem; }
   h2 { font-size: 2.4rem; }
   h3 { font-size: 3.0rem; letter-spacing: -.1rem; }
   h4 { font-size: 3.0rem; }
@@ -222,3 +222,5 @@ hr { margin-top: 4rem; margin-bottom: 6rem; border-width: 0; border-top: 2px sol
 hr.f { margin-top: 3rem; margin-bottom: 3rem; border-width: 0; border-top: 1px solid #cabbbb; width: 100%; text-align: left; margin-left: 0; }
 
 .container:after, .row:after, .u-cf { content: ""; display: table; clear: both; }
+
+#screenfiller { position: relative; width: 100%; }
