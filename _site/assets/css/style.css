@@ -224,3 +224,5 @@ hr.f { margin-top: 3rem; margin-bottom: 3rem; border-width: 0; border-top: 1px s
 .container:after, .row:after, .u-cf { content: ""; display: table; clear: both; }
 
 #screenfiller { position: relative; width: 100%; }
+
+.projects { width: 80.0%; }
