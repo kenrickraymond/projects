@@ -60,10 +60,6 @@ body { font-size: 1.9em; /* currently ems cause chrome bug misinterpreting rems 
 
 .logocontainer { background-color: #f4e5e3; margin-top: 6rem; padding: 4rem 0; }
 
-.github { background: url(../images/github2x.png) no-repeat; width: 22px; height: 22px; background-size: 22px 22px; margin-right: 20px; float: left; }
-
-.linkedin { background: url(../images/linkedin2x.png) no-repeat; width: 22px; height: 22px; background-size: 22px 22px; margin-right: 10px; float: left; }
-
 .social { border: 0; }
 
 .social:hover { opacity: .5; border: 0; }
@@ -226,3 +222,5 @@ hr.f { margin-top: 3rem; margin-bottom: 3rem; border-width: 0; border-top: 1px s
 #screenfiller { position: relative; width: 100%; }
 
 .projects { width: 80.0%; }
+
+.footer-social { display: inline-block; height: 25px; margin-bottom: 0; padding-top: 0; display: inline-block; }
